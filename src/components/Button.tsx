@@ -1,5 +1,6 @@
 import { useState } from 'react';//hook/gancho para definir estados
 
+
 interface ButtonProps {//especificando o tipo de dados que o botão irá receber
     color: string;//uma cor do tipo string :)
     children: string; //permite adicionar coisas dentro do botão como tag
